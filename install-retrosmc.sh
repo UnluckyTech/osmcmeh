@@ -5,14 +5,6 @@
 # Using this is on your own risk.
 # Script by mcobit
 
-# Check if we are root. If so, cancel installation
-
-if [[ $(id -u) -eq 0 ]]; then
-    echo "This script should not be run as root. Please run as user osmc!"
-    exit 1
-
-fi
-
 # setting up the menu
 
 cmd=(dialog --backtitle "retrosmc installation - Version $CURRENT_VERSION" --menu "Welcome to the retrosmc installation.\nWhat would you like to do?\n " 14 50 16)
