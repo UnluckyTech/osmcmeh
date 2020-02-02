@@ -5,8 +5,6 @@
 # Using this is on your own risk.
 # Script by mcobit
 
-# Version 0.008
-
 # Check if we are root. If so, cancel installation
 
 if [[ $(id -u) -eq 0 ]]; then
